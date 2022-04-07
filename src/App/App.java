@@ -26,6 +26,7 @@ public class App extends JFrame {
         counter.setHorizontalAlignment(SwingConstants.CENTER);
 
         leftButton.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 count--;
